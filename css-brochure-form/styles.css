@@ -1,6 +1,14 @@
+.title-container {
+  font-family: 'Brandon Grotesque';
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #ec5d58;
+  text-align: center;
+}
+
 .form-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Arrange children in a column */
   align-items: center;
   width: 100%;
 }
@@ -10,14 +18,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 1rem;
-}
-
-.title-container {
-  font-family: 'Brandon Grotesque';
-  font-size: 1.75rem;
-  font-weight: 500;
-  color: #ec5d58;
-  text-align: center;
+  width: 50rem;
 }
 
 .button-container {
@@ -39,7 +40,7 @@ label {
 
 input,
 select {
-  width: 50rem;
+  width: 100%; /* this is the width of the form-group */
   height: 3.5rem;
   border: 1px solid #999;
   border-radius: 5px;
